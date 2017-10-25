@@ -1,0 +1,66 @@
+/* ==========================================================================
+
+
+   Settings
+
+
+   ========================================================================== */
+
+
+$gunmetal-grey: #373743;
+$nevada-grey: #687577;
+$ash: #C9C3B8;
+$fall-green: #EDEBC6;
+$mantis-green: #83C770;
+
+
+
+$primary-color: $gunmetal-grey;
+$secondary-color: $mantis-green;
+$link-color: $gunmetal-grey;
+
+
+$black: $gunmetal-grey; /* protected variables */
+$white: $ash; /* protected variables */
+
+
+
+$font-weight: 400;
+$font-size: 20;
+$font-leading: 32;
+$font-family: 'EB Garamond', Georgia, serif;
+
+
+
+$font-line-length: 66;
+
+
+//font-family: 'Homemade Apple', cursive;
+//font-family: 'Meddon', cursive;
+
+$heading-weight: 400;
+$heading-family: 'Ropa Sans', cursive;
+$heading-alpha: (
+	size:		48,
+	leading:	48
+);
+$heading-beta: (
+	size:		30,
+	leading:	32
+);
+$heading-gamma: (
+	size:		24,
+	leading:	30
+);
+
+
+
+/**
+ * $font-size need to be set for this to work properly.
+ */
+$breakpoint-wrist: 321; 
+$breakpoint-palm: 481;
+$breakpoint-lap: 641;
+$breakpoint-desk: 1025;
+$breakpoint-wall: 1201;
+$breakpoint-mall: 1601;

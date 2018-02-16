@@ -1,7 +1,7 @@
-#Tales from the Gun
+#Running with Demons
 
-The two-page website for my free-to-download noir novella A Rainy Night on Drury Lane.
+Landing page for Running with Demons, the vlog and fundraiser for East Anglian Air Ambulance.
 
-The  [A Rainy Night on Drury Lane landing page][rainy] is here.
+The  [Running with Demons landing page][running] is here.
 
-[rainy]: http://carloseriksson.com/a-rainy-night-on-drury-lane/
+[running]: http://runningwithdemons.co.uk

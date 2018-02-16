@@ -1,68 +1,23 @@
-p {
+img {
+	vertical-align: middle; }
 
-	margin: 0;
-	text-indent: 0.5em;
-	text-align: justify;
+strong {
+	display: inline-block;
+	background-color: #272932;
+	color: #e7ecef;
+	padding: 0 0.25em 0 0.25em; }
 
-	-ms-word-break: normal;
-	word-break: normal;
-	/* Non standard for webkit */
-	word-break: normal;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
+.media--video {
+	position: relative;
+	height: 0; }
+.media--video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%; }
 
-	@include mq($breakpoint-lap) {
-
-		text-indent: em($font-size);
-
-	}
-
-}
-
-.toc p {
-
-	text-indent: 0;
-	text-align: left;
-
-}
-
-.align-right {
-
-	text-align: right;
-
-}
-
-.float-right {
-
-	float: right;
-
-}
-
-.first-paragraph {
-	text-indent: 0;
-}
-
-.normal-paragraph {
-	text-align: left;
-	text-indent: 0;
-	margin-bottom: em($font-leading);
-}
-
-.first-line {
-	text-transform: uppercase;
-	font-size: em(18);
-	line-height: em(30,18);
-}
-
-.chapter-numbering,
-.author-tagline {
-
-	text-indent: 0;
-	margin: 0 0 em($font-leading/2) 0;
-
-}
-.chapter-numbering {
-	text-align: center;
-}
+[class*="16:9"] {
+	padding-bottom: 56.25%; }

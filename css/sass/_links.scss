@@ -5,49 +5,16 @@
 
 
    ========================================================================== */
-
-
-
 a {
-
-	//display: inline-block;
-
 	text-decoration: none;
-	color: $link-color;
-
-	background-image: linear-gradient($secondary-color 100%, $secondary-color 100%);
+	color: #272932;
+	background-image: linear-gradient(#c9b79c 100%, #c9b79c 100%);
 	background-size: 0.4em 0.4em;
 	background-position: 0 100%;
 	background-repeat: repeat-x;
-
-	transition: all 150ms ease-in 0ms;
-
-	&:visited {
-
-		// color: gray;
-
-	}
-
-	&:hover,
-	&:focus,
-	&:active {
-
-		background-size: 0.5em 0.5em;
-
-		// border-bottom: 1px solid $secondary-color;
-		//background-color: $secondary-color;
-		// color: $primary-color;
-
-	}
-
-}
-
-.splash-island--reverse a,
-.island a {
-
-	//color: inherit;
-
-}
+	transition: all 150ms ease-in 0ms; }
+a:hover, a:focus, a:active {
+	background-size: 0.5em 0.5em; }
 
 .clear-before:before {
 

@@ -5,63 +5,71 @@
 
 
    ========================================================================== */
+h1, h2, h3, .heading {
+	display: inline-block;
+	font-family: "Cooper Hewitt", "Arial Black", arial, sans-serif;
+	font-weight: 800;
+	letter-spacing: .015em; }
 
-
-
-h1, h2, h3 {
-
-	font-family: $heading-family;
-	font-weight: $heading-weight;
-	margin: 0;
-	letter-spacing: .015em;
-	
-}
+.size--xxxl {
+	position: relative;
+	font-size: 2.4em;
+	line-height: 1; }
+.size--xxxl:after {
+	content: " ";
+	display: block;
+	background-color: #c9b79c;
+	width: 110%;
+	height: 110%;
+	position: absolute;
+	bottom: 7.5%;
+	left: -5%;
+	transform: rotate(-2.5deg);
+	z-index: -1; }
+@media screen and (min-width: 32.05em) {
+	.size--xxxl {
+		font-size: 3em;
+		line-height: 1; } }
 
 h1, .size--xxl {
-
-	font-size: em(30);
-	line-height: number(32,30);
-	margin-bottom: 32/30 *0.5em;
-	text-align: left;
-
-	@include mq($breakpoint-lap) {
-
-		font-size: em(48);
-		line-height: number(48,48);
-		margin-bottom: 48/48 *0.5em;
-
-	}
-
-}
+	font-size: 1.5em;
+	line-height: 1.06667; }
+@media screen and (min-width: 32.05em) {
+	h1, .size--xxl {
+		font-size: 2.4em;
+		line-height: 1; } }
 
 h2, .size--xl {
+	font-size: 1.2em;
+	line-height: 1.25; }
+@media screen and (min-width: 32.05em) {
+	h2, .size--xl {
+		font-size: 1.5em;
+		line-height: 1.06667; } }
 
-	font-size: em(24);
-	line-height: number(30,24);
-	margin-bottom: 30/24 *0.5em;
-	text-align: center;
+h3, .size--l, .lead {
+	font-size: 1em;
+	line-height: 1.2; }
+@media screen and (min-width: 32.05em) {
+	h3, .size--l, .lead {
+		font-size: 1.2em;
+		line-height: 1.25; } }
 
-	@include mq($breakpoint-lap) {
+.titleline {
+	display: inline-block;
+	background-color: #272932;
+	padding: 0.25em 0.25em 0 0.25em;
+	color: #e7ecef; }
 
-		font-size: em(30);
-		line-height: number(32,30);
-		margin-bottom: 32/30 *0.5em;
-
-	}
-}
-
-h3, .size--l {
-
-	font-size: em(20);
-	line-height: number(24,20);
-	margin-bottom: 24/20 *0.5em;
-	text-align: left;
-
-	@include mq($breakpoint-lap) {
-
-		font-size: em(24);
-		line-height: number(30,24);
-		margin-bottom: 30/24 *0.5em;
-
-	}
-}
+.subline {
+	margin-top: 0;
+	display: inline-block;
+	background-color: #272932;
+	padding: 0.25em 0.25em 0 0.25em;
+	color: #e7ecef;
+	font-size: 1rem;
+	line-height: 1.2; }
+@media screen and (min-width: 32.05em) {
+	.subline {
+		font-size: 1.2rem;
+		line-height: 1.25; } }

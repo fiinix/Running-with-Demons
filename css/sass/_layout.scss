@@ -13,12 +13,14 @@
 	margin-top: 1.5em; }
 
 html {
-	font-size: 125%; }
+	font-size: 125%;
+}
 
 html,
 body {
 	width: 100%;
-	height: 100%; }
+	height: 100%;
+}
 
 body {
 	font-weight: 400;
@@ -33,6 +35,12 @@ body {
 		font-size: 1em;
 		line-height: 1.6; } }
 
+.content-wrapper {
+
+	overflow: hidden;
+
+}
+
 .viewport {
 	margin-top: 0;
 	width: 100%;
@@ -41,9 +49,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	overflow: hidden;
+	//overflow: hidden;
 }
-.viewport:after, .viewport:before {
+.viewport:after,
+.viewport:before {
 	pointer-events: none;
 	content: " ";
 	display: block;
@@ -54,18 +63,16 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
-	transform: translate(-50%, 50%) rotate(45deg); }
+	transform: translate(-50%, 50%) rotate(45deg);
+}
 .viewport:before {
-	border-style: solid;
-	border-color: #c9b79c;
-	border-width: 0 0.8em 0.8em 0;
-	width: 1.6em;
-	height: 1.6em;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%, 25%) rotate(45deg);
-	animation: attention 1s infinite;
-	z-index: 20; }
+	border: 6.4em solid rgba(0, 0, 0, 0.03);
+	border-width: 0 6.4em 6.4em 0;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
 
 .island {
 	background: #00834d;

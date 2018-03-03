@@ -1,5 +1,5 @@
 {
-  "name": "a-rainy-night-on-drury-lane",
+  "name": "running-with-demons",
   "version": "1.0.0",
   "description": "Package.json for building Sass",
   "main": "index.js",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fiinix/a-rainy-night-on-drury-lane.git"
+    "url": "git+https://github.com/fiinix/running-with-demons.git"
   },
   "author": "Carlos Eriksson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fiinix/a-rainy-night-on-drury-lane/issues"
+    "url": "https://github.com/fiinix/running-with-demons/issues"
   },
-  "homepage": "https://github.com/fiinix/a-rainy-night-on-drury-lane#readme"
+  "homepage": "https://github.com/fiinix/running-with-demons#readme"
 }
